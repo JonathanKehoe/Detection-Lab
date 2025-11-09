@@ -19,7 +19,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 - Vitual machines running Windows 10 (Enduser) and Kali (attacker and SOC analyst) -- VirtualBox
 - Command Line Lnterface for Red Team, virus creation, attack, and Blue Team, defense response -- Powershell, Bash, Python
-- Network detection and virus payload deployment -- nMap and Metasploit
+- Network detection and virus payload deployment -- Nmap and Metasploit
 - Security Information and Event Management (SIEM) system for log ingestion and analysis -- Sysmon and Splunk 
 - Network analysis tools for capturing and examining network traffic. -- Wireshark
 - Telemetry generation tools to create realistic network traffic and attack scenarios. -- Sysmon and Splunk
