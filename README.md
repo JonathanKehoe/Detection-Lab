@@ -27,17 +27,18 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ## Steps
 
 Part 1 - Red Team Attack
-1. Create an Internal Network using VirtualBox and configure Sysmon, Splunk, Wireshark
-2. Run an NMap scan on a target machine and create a Metasploit TCP reverse shell virus file named Resume.PDF.exe
+1. Create an Internal Network using VirtualBox and configure Target Device with Sysmon, Splunk, Wireshark
+2. Run an NMap scan against target machine and create a Metasploit TCP reverse shell virus file named Resume.PDF.exe
    ![Kali Attack Machine: Scan Target Device](NMap_scan.png "Scan the Target Machine with NMap to Find Open Ports")
    ![Kali Attack Machine: Run MSFConsole and the Exploit Handler](Run_MSFConsole_and_Exploit_handler.png "Kali Attack Machine: Run MSFConsole and the Exploit Handler")
    ![Kali Attack Machine: Configure Payload](Configure_Payload.png "Kali Attack Machine: Configure Payload of the Reverse Shell")
    ![Kali Attack Machine: Configure Listen Host](Configure_Listen_Host.png "Kali Attack Machine: Configure the Listen Host of the Attack Machine")
+4. Host the Resume.pdf.exe and run msfConsole to initiate reverse shell
+   ![Target Device: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
+   ![Target Device: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
 
-   
-4. Initiate social engineering phishing attack with an email to HR Rep
-5. Use msfConsole to initiate reverse shell and take command of target device
-6. Move laterally through the device to obtain private files
+6. Initiate social engineering phishing attack with an email to HR Rep
+7. Take command of target device, run basic commands to check status, and move laterally to obtain private files
 
 Part 2 - Blueteam Response 
 1. Isolate end user device
