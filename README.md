@@ -47,10 +47,8 @@ Part 1 - Red Team Attack
 
    
 Part 2 - Blueteam Response 
-1. Isolate end user device
-2. Analyze Wireshark packet capture and Splunk logs
-3. Remove infected files
-4. Identify affected personal files
-5. Identify changes made
-6. Restore from backup
-7. Create a report for escalation and suggestions for further mitigation
+1. Quarantine End User device
+2. Analyze Wireshark capture and or Splunk logs
+3. Use Autopsy (or other DIFR) to identify Indicators of Compromise
+4. Restore from backup
+5. Create a report for escalation and suggestions for further mitigation
