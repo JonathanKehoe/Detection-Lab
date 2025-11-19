@@ -34,8 +34,8 @@ Part 1 - Red Team Attack
    ![Kali Attack Machine: Configure Payload](Configure_Payload.png "Kali Attack Machine: Configure Payload of the Reverse Shell")
    ![Kali Attack Machine: Configure Listen Host](Configure_Listen_Host.png "Kali Attack Machine: Configure the Listen Host of the Attack Machine")
 4. Host the Resume.pdf.exe and run msfConsole to initiate reverse shell
-   ![Target Device: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
-   ![Target Device: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
+   ![Kali Attack Machine: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
+   ![Kali Attack Machine: Run TCP Handler](Run_TCP_handler.png "Kali Attack Machine: Run the TCP Handler")
 
 6. Initiate social engineering phishing attack with an email to HR Rep
 7. Take command of target device, run basic commands to check status, and move laterally to obtain private files
