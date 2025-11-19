@@ -32,6 +32,8 @@ Part 1 - Red Team Attack
    ![Kali Attack Machine: Scan Target Device](NMap_scan.png "Scan the Target Machine with NMap to Find Open Ports")
    ![Kali Attack Machine: Run MSFConsole and the Exploit Handler](Run_MSFConsole_and_Exploit_handler.png "Kali Attack Machine: Run MSFConsole and the Exploit Handler")
    ![Kali Attack Machine: Configure Payload](Configure_Payload.png "Kali Attack Machine: Configure Payload of the Reverse Shell")
+   ![Kali Attack Machine: Configure Listen Hostd](Configure_Listen_Host.png "Kali Attack Machine: Configure the Listen Host of the Attack Machine")
+
    
 4. Initiate social engineering phishing attack with an email to HR Rep
 5. Use msfConsole to initiate reverse shell and take command of target device
