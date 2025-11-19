@@ -29,6 +29,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
 Part 1 - Red Team Attack
 1. Create an Internal Network using VirtualBox and configure Sysmon, Splunk, Wireshark
 2. Create a Metasploit TCP reverse shell virus file named Resume.PDF.exe
+   ![Kali:Attack Machine: Run MSFConsole and the Exploit Handler](Run_MSFConsole_and_Exploit_handler.png)
 3. Initiate social engineering phishing attack with an email to HR Rep
 4. Use msfConsole to initiate reverse shell and take command of target device
 5. Move laterally through the device to obtain private files
