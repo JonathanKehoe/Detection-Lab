@@ -33,13 +33,19 @@ Part 1 - Red Team Attack
    ![Kali Attack Machine: Run MSFConsole and the Exploit Handler](Run_MSFConsole_and_Exploit_handler.png "Kali Attack Machine: Run MSFConsole and the Exploit Handler")
    ![Kali Attack Machine: Configure Payload](Configure_Payload.png "Kali Attack Machine: Configure Payload of the Reverse Shell")
    ![Kali Attack Machine: Configure Listen Host](Configure_Listen_Host.png "Kali Attack Machine: Configure the Listen Host of the Attack Machine")
-4. Host the Resume.pdf.exe and run msfConsole to initiate reverse shell
+3. Host the Resume.pdf.exe and run msfConsole to initiate reverse shell
    ![Kali Attack Machine: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
    ![Kali Attack Machine: Run TCP Handler](Run_TCP_handler.png "Kali Attack Machine: Run the TCP Handler")
 
-6. Initiate social engineering phishing attack with an email to HR Rep
-7. Take command of target device, run basic commands to check status, and move laterally to obtain private files
+4. Initiate social engineering phishing attack (email to HR Rep) with link to Resume.pdf.exe
+   ![Target Device: End User Downloads Virus](End_User_Downloads_Resume.png "End User Downloads Resume.pdf.exe Virus")
+   ![Target Device: End User Opens Virus](End_User_Opens_Resume.png "End User Opens Resume.pdf.exe Virus")
+   ![Kali Attack Machine: Virus Initiates Connection](Host_resume_file_opened_by_User.png "Resume.pdf.exe Initiates Connection")
+   
+6. Take command of target device, run basic commands to check status, and move laterally to obtain private files
+   ![Kali Attack Machine: Intitiate Shell and Lateral Movement](TCP_Shell_Lateral_Local_Group_Net_User_and_IP.png "Initiate TCP Shell and Move laterally Through the Target System")
 
+   
 Part 2 - Blueteam Response 
 1. Isolate end user device
 2. Analyze Wireshark packet capture and Splunk logs
