@@ -48,7 +48,12 @@ Part 1 - Red Team Attack
    
 Part 2 - Blueteam Response 
 1. Quarantine End User device
-2. Analyze Wireshark capture and or Splunk logs
-3. Use Autopsy (or other DIFR) to identify Indicators of Compromise
-4. Restore from backup
-5. Create a report for escalation and suggestions for further mitigation
+2. End suspicious processes and remove files
+   ![Target Device: End Suspicious Processes](End_User_Processes_Running_2.png "End Suspicious Processes")   
+   ![Target Device: Check Suspicious Services](End_User_Services_Running.png "Check Suspicous Services")   
+   ![Target Device: Remove Suspicious Files](End_User_Resume_Downloaded.png "Identify Known Suspicious Files")   
+
+3. Analyze Wireshark capture and or Splunk logs
+4. Use Autopsy (or other DIFR) to identify Indicators of Compromise
+5. Restore from backup
+6. Create a report for escalation and suggestions for further mitigation
