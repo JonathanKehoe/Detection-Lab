@@ -74,13 +74,14 @@ The Detection Lab project aimed to establish a controlled environment for simula
 3. Analyze Wireshark capture and or Splunk logs
 
    ![Target Device: Splunk Search Resume for IP](Splunk_Search_Resume_IP.png "Splunk Search Resume Keyword to Find Source_IP")
+   
    ![Target Device: Splunk Search IP Actions](Splunk_Search_IP_Port.png "Splunk Search Actions From IP")
    
-5. Use Autopsy (or other DIFR) to identify Indicators of Compromise on device
+4. Use Autopsy (or other DIFR) to identify Indicators of Compromise on device
    
-6. Restore from backup
+5. Restore from backup
    
-7. Create a report for escalation and suggestions for further mitigation
+6. Create a report for escalation and suggestions for further mitigation
    
 
 ** Some portions of this project are from MYDIFR 
