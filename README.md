@@ -26,34 +26,62 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 ## Steps
 
-Part 1 - Red Team Attack
+### Part 1 - Red Team Attack
+
 1. Create an Internal Network using VirtualBox and configure Target Device with Sysmon, Splunk, Wireshark
+   
 2. Run an NMap scan against target machine and create a Metasploit TCP reverse shell virus file named Resume.PDF.exe
+   
    ![Kali Attack Machine: Scan Target Device](NMap_scan.png "Scan the Target Machine with NMap to Find Open Ports")
+   
    ![Kali Attack Machine: Run MSFConsole and the Exploit Handler](Run_MSFConsole_and_Exploit_handler.png "Kali Attack Machine: Run MSFConsole and the Exploit Handler")
+   
    ![Kali Attack Machine: Configure Payload](Configure_Payload.png "Kali Attack Machine: Configure Payload of the Reverse Shell")
+   
    ![Kali Attack Machine: Configure Listen Host](Configure_Listen_Host.png "Kali Attack Machine: Configure the Listen Host of the Attack Machine")
+   
 3. Host the Resume.pdf.exe and run msfConsole to initiate reverse shell
+   
    ![Kali Attack Machine: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
+   
    ![Kali Attack Machine: Run TCP Handler](Run_TCP_handler.png "Kali Attack Machine: Run the TCP Handler")
 
 4. Initiate social engineering phishing attack (email to HR Rep) with link to Resume.pdf.exe
+   
    ![Target Device: End User Downloads Virus](End_User_Downloads_Resume.png "End User Downloads Resume.pdf.exe Virus")
+   
    ![Target Device: End User Opens Virus](End_User_Opens_Resume.png "End User Opens Resume.pdf.exe Virus")
+   
    ![Kali Attack Machine: Virus Initiates Connection](Host_resume_file_opened_by_User.png "Resume.pdf.exe Initiates Connection")
    
-6. Take command of target device, run basic commands to check status, and move laterally to obtain private files
+5. Take command of target device, run basic commands to check status, and move laterally to obtain private files
+   
    ![Kali Attack Machine: Intitiate Shell and Lateral Movement](TCP_Shell_Lateral_Local_Group_Net_User_and_IP.png "Initiate TCP Shell and Move laterally Through the Target System")
 
    
-Part 2 - Blueteam Response 
+### Part 2 - Blueteam Response 
+
 1. Quarantine End User device
+   
 2. End suspicious processes and remove files
-   ![Target Device: End Suspicious Processes](End_User_Processes_Running_2.png "End Suspicious Processes")   
-   ![Target Device: Check Suspicious Services](End_User_Services_Running.png "Check Suspicous Services")   
+   
+   ![Target Device: End Suspicious Processes](End_User_Processes_Running_2.png "End Suspicious Processes")
+   
+   ![Target Device: Check Suspicious Services](End_User_Services_Running.png "Check Suspicous Services")
+   
    ![Target Device: Remove Suspicious Files](End_User_Resume_Downloaded.png "Identify Known Suspicious Files")   
 
 3. Analyze Wireshark capture and or Splunk logs
-4. Use Autopsy (or other DIFR) to identify Indicators of Compromise
-5. Restore from backup
-6. Create a report for escalation and suggestions for further mitigation
+
+   ![Target Device: Splunk Search Resume for IP](Splunk_Search_Resume_IP.png "Splunk Search Resume Keyword to Find Source_IP")
+   ![Target Device: Splunk Search IP Actions](Splunk_Search_IP_Port.png "Splunk Search Actions From IP")
+   
+5. Use Autopsy (or other DIFR) to identify Indicators of Compromise on device
+   
+6. Restore from backup
+   
+7. Create a report for escalation and suggestions for further mitigation
+   
+
+** Some portions of this project are from MYDIFR 
+
