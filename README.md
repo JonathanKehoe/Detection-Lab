@@ -59,7 +59,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
    ![Kali Attack Machine: Intitiate Shell and Lateral Movement](TCP_Shell_Lateral_Local_Group_Net_User_and_IP.png "Initiate TCP Shell and Move laterally Through the Target System")
 
    
-### Part 2 - Blueteam Response 
+### Part 2 - Blue Team Response 
 
 1. Quarantine End User device
    
