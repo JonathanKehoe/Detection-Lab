@@ -79,7 +79,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
    
 4. Use Autopsy (or other DIFR) to identify Indicators of Compromise on device
    
-5. Restore from backup
+5. Escalate ticket to SOC Level 2
    
 6. Create a report for escalation and suggestions for further mitigation
    
