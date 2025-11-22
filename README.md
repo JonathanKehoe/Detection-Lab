@@ -42,7 +42,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
    
 3. Host the Resume.pdf.exe and run msfConsole to initiate reverse shell
    
-   ![Kali Attack Machine: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessable to the User")
+   ![Kali Attack Machine: Host Resume File](Host_Resume_File_downloaded_by_User.png "Kali Attack Machine: Host the Resume File on a Server Accessible to the User")
    
    ![Kali Attack Machine: Run TCP Handler](Run_TCP_handler.png "Kali Attack Machine: Run the TCP Handler")
 
@@ -67,7 +67,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
    
    ![Target Device: End Suspicious Processes](End_User_Processes_Running_2.png "End Suspicious Processes")
    
-   ![Target Device: Check Suspicious Services](End_User_Services_Running.png "Check Suspicous Services")
+   ![Target Device: Check Suspicious Services](End_User_Services_Running.png "Check Suspicious Services")
    
    ![Target Device: Remove Suspicious Files](End_User_Resume_Downloaded.png "Identify Known Suspicious Files")   
 
