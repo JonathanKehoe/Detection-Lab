@@ -84,5 +84,8 @@ The Detection Lab project aimed to establish a controlled environment for simula
 6. Create a report for escalation and suggestions for further mitigation
    
 
-** Some portions of this project are from MYDIFR 
+
+
+
+** Some portions of this project are from MYDIFR project lessons
 
