@@ -85,5 +85,5 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 
 
-** Some portions of this project are from MYDIFR project lessons
+** Some portions of this project are combined with MYDIFR project lessons and my own Google Cybersecurity Certification assignments. 
 
